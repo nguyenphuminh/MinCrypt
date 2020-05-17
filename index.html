@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MinCryptor</title>
+	<style type="text/css">
+		.box{
+			margin-left:30%;
+			margin-right:30%;
+			width:40%;
+		}
+		#class1 {
+    		background-color:#CF5136;
+			position:absolute;
+			height:120px;
+			left:0%;
+			right:0%;
+			top:0%;
+		}
+
+		#class2 {
+			color:white;
+			position:absolute;
+			font-size:150%;
+			font-family:Calibri;
+			margin-left:10%;
+			margin-top:7px;
+		}
+	</style>
+</head>
+<body>
+	<section>	
+		<div id="class1">
+			<div id="class2">
+			<p>MinCrypt Encryptor/Decryptor</p>
+			</div>
+		</div>
+	</section>
+	<div style="margin-top: 20%">
+		<textarea class="box" placeholder="Paste your HTML or CSS codes here. HTML codes which includes Javascript might not work." rows="25%"></textarea>
+		<br/>
+		<button style="margin-left:30%;margin-right:30%;width:40%;" onclick="encode();">Encode</button>
+		<br/>
+		<button style="margin-left:30%;margin-right:30%;width:40%;" onclick="decode();">Decode</button>
+		<br/>
+	</div>
+	<textarea disabled class="box" id='output' rows="25%" placeholder="output"></textarea>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
