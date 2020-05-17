@@ -1,0 +1,2 @@
+# MinCrypt
+The MinCrypt Encrytor
