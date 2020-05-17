@@ -1,7 +1,7 @@
 # MinCrypt
 The MinCrypt Encrytor
 
-# Encryption rules:
+## Encryption rules:
 a -> 103
 
 b -> 301
@@ -53,3 +53,8 @@ x -> 880
 y -> 100
 
 z -> 134
+
+## Decryption rules:
+The Decryption rules is reverse to the encryption rule
+
+## This Encryption Board Is Licensed Under The MIT License
