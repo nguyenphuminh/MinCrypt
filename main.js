@@ -57,6 +57,42 @@ function encode(){
 	a = a.replace(/X/g,'-2a6');
 	a = a.replace(/Y/g,'-2a7');
 	a = a.replace(/Z/g,'-2a8');
+
+	//Vietnam
+	//Special Vietnam letters #1
+	a = a.replace(/\u00E2/g, '-0b1');
+	a = a.replace(/\u0103/g, '-0b2');
+	a = a.replace(/\u00F4/g, '-0b3');
+	a = a.replace(/\u01A1/g, '-0b4');
+	a = a.replace(/\u0111/g, '-0b5');
+	a = a.replace(/\u00EA/g, '-0b6');
+	a = a.replace(/\u01B0/g, '-0b7');
+	//Special Vietnam letters #2
+	a = a.replace(/\u00E1/g, '-0b9');
+	a = a.replace(/\u00E0/g, '-1b1');
+	a = a.replace(/\u1EA1/g, '-1b2');
+	a = a.replace(/\u1EA3/g, '-1b3');
+	a = a.replace(/\u00E3/g, '-1b4');
+	a = a.replace(/\u00E9/g, '-1b5');
+	a = a.replace(/\u00E8/g, '-1b6');
+	a = a.replace(/\u1EBD/g, '-1b7');
+	a = a.replace(/\u1EB9/g, '-1b8');
+	a = a.replace(/\u1EBB/g, '-1b9');
+	a = a.replace(/\u00ED/g, '-2b1');
+	a = a.replace(/\u00EC/g, '-2b2');
+	a = a.replace(/\u1EC9/g, '-2b3');
+	a = a.replace(/\u1ECB/g, '-2b4');
+	a = a.replace(/\u0129/g, '-2b5');
+	a = a.replace(/\u00F3/g, '-2b6');
+	a = a.replace(/\u00F2/g, '-2b7');
+	a = a.replace(/\u1ECF/g, '-2b8');
+	a = a.replace(/\u1ECD/g, '-2b9');
+	a = a.replace(/\u00F5/g, '-3b1');
+	a = a.replace(/\u00FA/g, '-3b2');
+	a = a.replace(/\u00F9/g, '-3b3');
+	a = a.replace(/\u1EE5/g, '-3b4');
+	a = a.replace(/\u0169/g, '-3b5');
+	a = a.replace(/\u1EE7/g, '-3b6');
 	var output = document.querySelector("#output");
 	output.innerHTML = a;
 }
@@ -65,6 +101,42 @@ function encode(){
 function decode(){
 	var a = document.querySelector(".box").value;
 	//Upper Case
+	//Vietnam
+	//Special Vietnam letters #1
+	a = a.replace(/-0b1/g, '\u00E2');
+	a = a.replace(/-0b2/g, '\u0103');
+	a = a.replace(/-0b3/g, '\u00F4');
+	a = a.replace(/-0b4/g, '\u01A1');
+	a = a.replace(/-0b5/g, '\u0111');
+	a = a.replace(/-0b6/g, '\u00EA');
+	a = a.replace(/-0b7/g, '\u01B0');
+	//Special Vietnam letters #2
+	a = a.replace(/-0b9/g, '\u00E1');
+	a = a.replace(/-1b1/g, '\u00E0');
+	a = a.replace(/-1b2/g, '\u1EA1');
+	a = a.replace(/-1b3/g, '\u1EA3');
+	a = a.replace(/-1b4/g, '\u00E3');
+	a = a.replace(/-1b5/g, '\u00E9');
+	a = a.replace(/-1b6/g, '\u00E8');
+	a = a.replace(/-1b7/g, '\u1EBD');
+	a = a.replace(/-1b8/g, '\u1EB9');
+	a = a.replace(/-1b9/g, '\u1EBB');
+	a = a.replace(/-2b1/g, '\u00ED');
+	a = a.replace(/-2b2/g, '\u00EC');
+	a = a.replace(/-2b3/g, '\u1EC9');
+	a = a.replace(/-2b4/g, '\u1ECB');
+	a = a.replace(/-2b5/g, '\u0129');
+	a = a.replace(/-2b6/g, '\u00F3');
+	a = a.replace(/-2b7/g, '\u00F2');
+	a = a.replace(/-2b8/g, '\u1ECF');
+	a = a.replace(/-2b9/g, '\u1ECD');
+	a = a.replace(/-3b1/g, '\u00F5');
+	a = a.replace(/-3b2/g, '\u00FA');
+	a = a.replace(/-3b3/g, '\u00F9');
+	a = a.replace(/-3b4/g, '\u1EE5');
+	a = a.replace(/-3b5/g, '\u0169');
+	a = a.replace(/-3b6/g, '\u1EE7');
+
 	a = a.replace(/-0a1/g,"A");
 	a = a.replace(/-0a2/g,"B");
 	a = a.replace(/-0a3/g,"C");
