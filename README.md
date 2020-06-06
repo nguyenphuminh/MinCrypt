@@ -1,5 +1,5 @@
-# MinCrypt
-The MinCrypt Encrytor
+# MinminCrypt
+The MinminCrypt encoding scheme
 
 ## Encryption rules:
 Read the code my friend :))
@@ -7,4 +7,4 @@ Read the code my friend :))
 ## Decryption rules:
 The Decryption rules is reverse to the encryption rule
 
-## This Encryption Scheme Is Licensed Under The MIT License
+## This encoding scheme is licensed under the MIT license
