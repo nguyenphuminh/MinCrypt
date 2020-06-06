@@ -2,7 +2,7 @@
 The MinCrypt Encrytor
 
 ## Encryption rules:
-This is no longer available
+Read the code my friend :))
 
 ## Decryption rules:
 The Decryption rules is reverse to the encryption rule
