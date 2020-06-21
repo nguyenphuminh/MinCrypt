@@ -1,6 +1,8 @@
 # MinminCrypt
 The MinminCrypt encoding scheme
 
+[![GitHub License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/nguyenphuminh/MinCrypt/blob/master/LICENSE)
+
 ## Encryption rules:
 Read the code my friend :))
 
